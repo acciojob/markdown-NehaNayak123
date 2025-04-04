@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { marked } from "marked";
 
 function MarkdownEditor() {
-  const [markdown, setMarkdown] = useState("# Hello, Markdown!\nType your text here...");
+  const [markdown, setMarkdown] = useState("# Heading\nType your text here...");
   const [html, setHtml] = useState("");
 
   useEffect(() => {
